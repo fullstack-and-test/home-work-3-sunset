@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+/* 1 */
+body {
+	font-family: "Roboto", Arial, sans-serif;
+	font-weight: 400;
+	background-color: #b4b4b4;
+	background-image: url("../images/pink-flowers.webp");
+	background-repeat: repeat;
+	background-size: 200px 200px;
+	background-attachment: fixed;
+}
+
+/* 10 */
+.wrapper {
+	width: 88.194%;
+	padding: 0 3.5%;
+	margin: 0 auto;
+	background-color: #ffffff;
+	box-shadow: 0px 4px 4px 0px #00000040;
+}
+
+/* 10 */
+.header__heading {
+	padding-top: 96px;
+	margin-bottom: 46px;
+	font-size: 2rem;
+	color: #a11414;
+}
+
+/* 10 */
+.header__heading--spec {
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+/* 10 */
+.header__img-wrap {
+	padding: 14px 13px;
+	margin-bottom: 57px;
+	border: 1px solid #000000;
+	border-radius: 2px;
+}
+
+/* 11 -> class 10, tag - 1 */
+.header__img-wrap img {
+	width: 100%;
+	margin: 0 auto;
+}
+
+/* 10 */
+.section--flx {
+	display: flex;
+}
+
+/* 20 */
+.section--flx .article {
+	margin-right: 3px;
+}
+
+/* 10 */
+.article__heading {
+	color: #a11414;
+	font-size: 1.5rem;
+	font-weight: 700;
+	margin-bottom: 15px;
+}
+
+/* 10 */
+.article__item {
+	margin-bottom: 31px;
+	color: #1d1b1b;
+	text-indent: 40px;
+}
+
+/* 10 */
+.article__text--spec {
+	text-transform: uppercase;
+}
+
+/* 10 */
+.article__text--mod {
+	color: #a11414;
+}
+
+/* 10 */
+.article__text--add {
+	text-decoration: line-through;
+}
+
+/* 10 */
+.nav-wrap {
+	width: 13%;
+	height: fit-content;
+	flex-shrink: 0;
+	padding: 29px 26px;
+	border-radius: 2px 15px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #000000;
+	background: #d7d7d7;
+}
+
+/* 10 */
+.nav__heading {
+	margin-bottom: 24px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #000000;
+}
+
+/* 10 */
+.nav__link {
+	text-decoration: none;
+	color: #000000;
+}
+
+/* 20 */
+.nav__link:hover {
+	height: fit-content;
+	font-weight: 700;
+	text-decoration: underline;
+	color: #a11414;
+}
+
+/* 10 */
+.footer {
+	width: 85%;
+	padding-bottom: 18px;
+	margin-top: 4px;
+}
+
+/* 10 */
+.footer__line {
+	background: url("../images/back.gif") no-repeat 0 50%;
+	background-size: 100%;
+}
+
+/* 10 */
+.footer__item {
+	padding: 7px 0 6px;
+	text-align: center;
+	color: #403636;
+}
+
+.footer__item--spec {
+	font-weight: 700;
+}
